@@ -20,6 +20,8 @@
   }
   
   input[type="text"],
+  input[type="text"],
+  input[type="text"],
   input[type="email"],
   input[type="password"] {
     padding: 10px;
@@ -39,15 +41,8 @@
   
   /* Media Queries */
   
-  @media (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     form {
       width: 80%;
     }
   }
-  
-  @media (max-width: 800px) {
-    form {
-      width: 90%;
-    }
-  }
-  
